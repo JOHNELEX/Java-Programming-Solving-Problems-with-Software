@@ -76,7 +76,7 @@ public class Part3 {
 	}
 	
 	public StorageResource getAllGenes(String dna) {
-		StorageResource sr = new StorageResource();
+		StorageResource sr = new StorageResource();i
 		int startIndex = 0;
 		while (true) { 
 			String gene = findGene(dna, startIndex);
